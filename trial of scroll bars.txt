@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./output.css">
+    <style>
+        * {
+            font-family: Geomanist, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+      <div class="max-w-[83%] mx-auto">
+            <div class="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-4 my-5 gap-3">
+
+                <div class="shadow-sm cursor-pointer pb-2 rounded-md">
+                    <div class=" aspect-[4/3]">
+                        <img src="https://media.umbraco.io/suzuki-gb/frvbbyh2/hayabusa_m5_c0t.png?width=828&quality=75&format=webp"
+                            alt="" class="w-full h-full object-cover ">
+                    </div>
+                    <div class="px-3 flex flex-col justify-between">
+                        <div class="flex justify-between items-center">
+                            <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                            <i class="fa-regular fa-heart font-bold text-lg"></i>
+                        </div>
+                        <p>Suzuki Mehran VXR 2014 </p>
+                        <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                        <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                        <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                    </div>
+
+                </div>
+                <div class="shadow-sm cursor-pointer pb-2 rounded-md">
+                    <div class=" aspect-[4/3]">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDd9jNkD2GmnsRVxRvFXmUI1tqsenBSr8Mww&s"
+                            alt="" class="w-full h-full object-cover ">
+                    </div>
+                    <div class="px-3 flex flex-col justify-between">
+                        <div class="flex justify-between items-center">
+                            <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                            <i class="fa-regular fa-heart font-bold text-lg"></i>
+                        </div>
+                        <p>Suzuki Mehran VXR 2014 </p>
+                        <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                        <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                        <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                    </div>
+
+                </div>
+                <div class="shadow-sm cursor-pointer pb-2 rounded-md">
+                    <div class=" aspect-[4/3]">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZ3MLh3xa5IXbnZK3u5NdLBY07TZI4pPwYw&s"
+                            alt="" class="w-full h-full object-cover ">
+                    </div>
+                    <div class="px-3 flex flex-col justify-between">
+                        <div class="flex justify-between items-center">
+                            <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                            <i class="fa-regular fa-heart font-bold text-lg"></i>
+                        </div>
+                        <p>Suzuki Mehran VXR 2014 </p>
+                        <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                        <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                        <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                    </div>
+
+                </div>
+                <div class="shadow-sm cursor-pointer pb-2 rounded-md">
+                    <div class=" aspect-[4/3]">
+                        <img src="https://quickinsure.s3.ap-south-1.amazonaws.com/uploads/static_page/a83d207a-a933-41ac-a446-db9d23682693/Ktm%20Upcoming%20Bikes%20In%20India%202023%20New%20Launches%20And%20Bike%20Insurance.png"
+                            alt="" class="w-full h-full object-cover ">
+                    </div>
+                    <div class="px-3 flex flex-col justify-between">
+                        <div class="flex justify-between items-center">
+                            <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                            <i class="fa-regular fa-heart font-bold text-lg"></i>
+                        </div>
+                        <p>Suzuki Mehran VXR 2014 </p>
+                        <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                        <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                        <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</html>

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./output.css">
+    <style>
+        * {
+            font-family: Geomanist, Helvetica, sans-serif;
+        }
+
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- first  -->
+    <header class="w-full h-[180px]  top-0  fixed z-10 text-[#002F34] overflow-x-auto">
+        <div class="w-full flex h-[63px] bg-[#EBF1FF]">
+            <div class="mx-auto w-[83%]  flex justify-between items-center">
+                <div class="flex">
+                    <div class="w-[60px] py-3 flex items-center  bg-[#FFFFFF] ">
+                        <a href="first.html">
+                            <img src="https://logos-world.net/wp-content/uploads/2022/04/OLX-Logo.jpg" class="w-[45px] mx-auto " alt="">
+                        </a>
+                    </div>
+                    <div class="flex  mx-4 items-center justify-center">
+                        <a href="motor.html">
+                            <div class="  w-[51px]">
+                                <img src="https://www.olx.com.pk/assets/iconMotors.6bf280165e43e55b173d0a53551e2bfb.png" class="w-full" alt="">
+
+                            </div>
+
+                            </a><p class="ms-2 cursor-pointer hover:text-[#3A77FF] font-bold"><a href="motor.html"></a><a href="motor.html">Motors</a>
+                            </p>
+                        
+                    </div>
+                    <div class="flex  mx-3 items-center justify-center">
+                        <div class="  w-[34px]">
+                            <img src="https://www.olx.com.pk/assets/iconProperty.d09c6d2e3621f900c17c9e8330a1a37b.png" class="w-full" alt="">
+
+                        </div>
+                        <p class="ms-2 cursor-pointer hover:text-[#3A77FF] font-bold"><a href="propety.html">Property
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-5">
+                    <p class="underline font-bold underline-offset-8 hover:no-underline cursor-pointer"> Login</p>
+                    <div class="relative w-[104px]">
+                        <img src="LOGIN PAGE IMG.png" class="w-full" alt="">
+
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fa-solid fa-plus mr-1"></i>
+                            <span class="font-semibold">SELL</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="w-full bg-[#FFFFFF]">
+            <div class="w-[83%] mx-auto grid items-center grid-cols-[362px_auto] gap-4">
+
+                <div class="flex justify-between   border-[#4f4b4a3c] my-3 rounded-lg  p-3 border-1 ">
+                    <div>
+                        <i class="fa-solid fa-location-dot me-1 text-[#4072FF]"></i>
+                        <span>Pakistan</span>
+                    </div>
+                    <i class="fa-solid fa-greater-than rotate-90"></i>
+                </div>
+
+                <div class="flex border border-[#002F34] rounded-md overflow-hidden w-full mx-auto h-[42px]">
+                    <input type="search" placeholder="Find Cars, Mobile Phones and more..."
+                        class="flex-grow px-4 outline-none text-[#002F34] placeholder-gray-500 text-[15px]">
+
+                    <button
+                        class="flex items-center justify-center gap-2 bg-[#002F34] text-white px-4 font-semibold text-[14px] h-full">
+                        <i class="fas fa-search text-[14px]"></i>
+                        <span>Search</span>
+                    </button>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </header>
+    <!--  -->
+    <div class="flex justify-between w-[81.5%] mx-auto mt-20">
+        <span class="font-bold text-2xl">Search by Property Type</span>
+
+    </div>
+    <div class="w-full">
+        <div
+            class="w-[83%] mx-auto grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-[2rem] md:gap-[2.4rem] pt-7">
+            <div class="w-[125px] flex flex-col items-center">
+                <div>
+                    <img src="https://motors-asset-cdn.el.olx.com.pk/_next/static/legacy/public/images/properties/houses.jpg"
+                        class="w-[80px]">
+                </div>
+                <h2 class="font-bold mt-1 text-center">Houses</h2>
+            </div>
+
+            <div class="w-[125px] flex flex-col items-center">
+                <div>
+                    <img src="https://motors-asset-cdn.el.olx.com.pk/_next/static/legacy/public/images/properties/appartment.jpg"
+                        class="w-[80px]">
+                </div>
+                <h2 class="font-bold mt-1 text-center">Apartments & Flats</h2>
+            </div>
+
+            <div class="w-[125px] flex flex-col items-center">
+                <div>
+                    <img src="https://motors-asset-cdn.el.olx.com.pk/_next/static/legacy/public/images/properties/floor.jpg"
+                        class="w-[80px]">
+                </div>
+                <h2 class="font-bold mt-1 text-center">Portions & Floors</h2>
+            </div>
+
+            <div class="w-[125px] flex flex-col items-center">
+                <div>
+                    <img src="https://motors-asset-cdn.el.olx.com.pk/_next/static/legacy/public/images/properties/shops.jpg"
+                        class="w-[80px]">
+                </div>
+                <h2 class="font-bold mt-1 text-center">Shops</h2>
+            </div>
+
+            <div class="w-[125px] flex flex-col items-center">
+                <div>
+                    <img src="https://motors-asset-cdn.el.olx.com.pk/_next/static/legacy/public/images/properties/commercial.jpg"
+                        class="w-[80px]">
+                </div>
+                <h2 class="font-bold mt-1 text-center">Commercial Plots</h2>
+            </div>
+
+            <div class="w-[125px] flex flex-col items-center">
+                <div>
+                    <img src="https://motors-asset-cdn.el.olx.com.pk/_next/static/legacy/public/images/properties/factory.jpg"
+                        class="w-[80px]">
+                </div>
+                <h2 class="font-bold mt-1 text-center">Factory</h2>
+            </div>
+
+            <div class="w-[125px] flex flex-col items-center">
+                <div>
+                    <img src="https://motors-asset-cdn.el.olx.com.pk/_next/static/legacy/public/images/properties/property-agriculture.jpg"
+                        class="w-[80px]">
+                </div>
+                <h2 class="font-bold mt-1 text-center">Agricultural Land</h2>
+            </div>
+
+            <div class="w-[125px] flex flex-col items-center">
+                <div>
+                    <img src="https://motors-asset-cdn.el.olx.com.pk/_next/static/legacy/public/images/properties/plot-files.jpg"
+                        class="w-[80px]">
+                </div>
+                <h2 class="font-bold mt-1 text-center">Files</h2>
+            </div>
+
+            <div class="w-[125px] flex flex-col items-center">
+                <div>
+                    <img src="https://motors-asset-cdn.el.olx.com.pk/_next/static/legacy/public/images/properties/plot-form.jpg"
+                        class="w-[80px]">
+                </div>
+                <h2 class="font-bold mt-1 text-center">Plot Form</h2>
+            </div>
+
+            <div class="w-[125px] flex flex-col items-center">
+                <div>
+                    <img src="https://motors-asset-cdn.el.olx.com.pk/_next/static/legacy/public/images/properties/shops.jpg"
+                        class="w-[80px]">
+                </div>
+                <h2 class="font-bold mt-1 text-center">Building</h2>
+            </div>
+
+            <div class="w-[125px] flex flex-col items-center">
+                <div>
+                    <img src="https://motors-asset-cdn.el.olx.com.pk/_next/static/legacy/public/images/properties/building.jpg"
+                        class="w-[80px]">
+                </div>
+                <h2 class="font-bold mt-1 text-center">Office</h2>
+            </div>
+
+            <div class="w-[125px] flex flex-col items-center">
+                <div>
+                    <img src="https://motors-asset-cdn.el.olx.com.pk/_next/static/legacy/public/images/properties/offices.jpg"
+                        class="w-[80px]">
+                </div>
+                <h2 class="font-bold mt-1 text-center">Warehouse</h2>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- img ad -->
+    <div class="w-[76.5%] mt-6 mx-auto">
+        <img src="	https://tpc.googlesyndication.com/simgad/4057360645412603123" alt="">
+
+    </div>
+
+
+
+    <!--  house -->
+    <div class="flex justify-between w-[81%] mx-auto mt-5">
+        <span class="font-bold text-2xl
+">Houses</span>
+        <span class="font-bold text-base 
+text-[#3A77FF]">View More</span>
+    </div>
+    <!--  houes cards -->
+    <div class="max-w-[81%] mx-auto">
+        <div class="grid grid-flow-col auto-cols-[247px] overflow-x-auto  scrollbar-hide my-5 gap-3">
+
+            <div class="shadow-sm cursor-pointer pb-2 relative rounded-md">
+                <h1 class="absolute mx-3 my-3 px-1.5 py-1.5 text-[10px] font-bold bg-[#FECE32] rounded-md">FEATURED</h1>
+                <div class=" aspect-[4/3]">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKpvCqGI4-FgKWCPAxdF_RW3t7fvfoJksAww&s"
+                        alt="" class="w-full h-full object-cover ">
+                </div>
+                <div class="px-3 flex flex-col justify-between">
+                    <div class="flex justify-between items-center">
+                        <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                        <i class="fa-regular fa-heart font-bold text-lg"></i>
+                    </div>
+                    <p>Suzuki Mehran VXR 2014 </p>
+                    <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                    <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                    <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                </div>
+
+            </div>
+            <div class="shadow-sm cursor-pointer pb-2 relative rounded-md">
+                <h1 class="absolute mx-3 my-3 px-1.5 py-1.5 text-[10px] font-bold bg-[#FECE32] rounded-md">FEATURED</h1>
+                <div class=" aspect-[4/3]">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrBiZmDsEKlAf7qnMTmygzXqXE9UyriP-DNQ&s"
+                        alt="" class="w-full h-full object-cover ">
+                </div>
+                <div class="px-3 flex flex-col justify-between">
+                    <div class="flex justify-between items-center">
+                        <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                        <i class="fa-regular fa-heart font-bold text-lg"></i>
+                    </div>
+                    <p>Suzuki Mehran VXR 2014 </p>
+                    <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                    <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                    <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                </div>
+
+            </div>
+            <div class="shadow-sm cursor-pointer pb-2 relative rounded-md">
+                <h1 class="absolute mx-3 my-3 px-1.5 py-1.5 text-[10px] font-bold bg-[#FECE32] rounded-md">FEATURED</h1>
+                <div class=" aspect-[4/3]">
+                    <img src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?cs=srgb&dl=pexels-pixasquare-1115804.jpg&fm=jpg"
+                        alt="" class="w-full h-full object-cover ">
+                </div>
+                <div class="px-3 flex flex-col justify-between">
+                    <div class="flex justify-between items-center">
+                        <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                        <i class="fa-regular fa-heart font-bold text-lg"></i>
+                    </div>
+                    <p>Suzuki Mehran VXR 2014 </p>
+                    <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                    <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                    <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                </div>
+
+            </div>
+            <div class="shadow-sm cursor-pointer relative pb-2 rounded-md">
+                <h1 class="absolute mx-3 my-3 px-1.5 py-1.5 text-[10px] font-bold bg-[#FECE32] rounded-md">FEATURED</h1>
+                <div class=" aspect-[4/3]">
+                    <img src="https://www.thehousedesigners.com/images/plans/01/URD/bulk/6583/the-destination-front-rendering_m.webp"
+                        alt="" class="w-full h-full object-cover ">
+                </div>
+                <div class="px-3 flex flex-col justify-between">
+                    <div class="flex justify-between items-center">
+                        <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                        <i class="fa-regular fa-heart font-bold text-lg"></i>
+                    </div>
+                    <p>Suzuki Mehran VXR 2014 </p>
+                    <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                    <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                    <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                </div>
+
+            </div>
+            <div class="shadow-sm cursor-pointer relative pb-2 rounded-md">
+                <h1 class="absolute mx-3 my-3 px-1.5 py-1.5 text-[10px] font-bold bg-[#FECE32] rounded-md">FEATURED</h1>
+                <div class=" aspect-[4/3]">
+                    <img src="https://www.thehousedesigners.com/images/plans/01/URD/bulk/6583/the-destination-front-rendering_m.webp"
+                        alt="" class="w-full h-full object-cover ">
+                </div>
+                <div class="px-3 flex flex-col justify-between">
+                    <div class="flex justify-between items-center">
+                        <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                        <i class="fa-regular fa-heart font-bold text-lg"></i>
+                    </div>
+                    <p>Suzuki Mehran VXR 2014 </p>
+                    <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                    <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                    <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                </div>
+
+            </div>
+            <div class="shadow-sm cursor-pointer relative pb-2 rounded-md">
+                <h1 class="absolute mx-3 my-3 px-1.5 py-1.5 text-[10px] font-bold bg-[#FECE32] rounded-md">FEATURED</h1>
+                <div class=" aspect-[4/3]">
+                    <img src="https://www.thehousedesigners.com/images/plans/01/URD/bulk/6583/the-destination-front-rendering_m.webp"
+                        alt="" class="w-full h-full object-cover ">
+                </div>
+                <div class="px-3 flex flex-col justify-between">
+                    <div class="flex justify-between items-center">
+                        <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                        <i class="fa-regular fa-heart font-bold text-lg"></i>
+                    </div>
+                    <p>Suzuki Mehran VXR 2014 </p>
+                    <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                    <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                    <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                </div>
+
+            </div>
+            <div class="shadow-sm cursor-pointer relative pb-2 rounded-md">
+                <h1 class="absolute mx-3 my-3 px-1.5 py-1.5 text-[10px] font-bold bg-[#FECE32] rounded-md">FEATURED</h1>
+                <div class=" aspect-[4/3]">
+                    <img src="https://www.thehousedesigners.com/images/plans/01/URD/bulk/6583/the-destination-front-rendering_m.webp"
+                        alt="" class="w-full h-full object-cover ">
+                </div>
+                <div class="px-3 flex flex-col justify-between">
+                    <div class="flex justify-between items-center">
+                        <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                        <i class="fa-regular fa-heart font-bold text-lg"></i>
+                    </div>
+                    <p>Suzuki Mehran VXR 2014 </p>
+                    <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                    <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                    <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <!--  incomplete -->
+
+
+
+    <!--  -->
+    <div class="flex justify-between w-[80%] mx-auto mt-5 mb-3">
+        <span class="font-bold text-2xl
+">Browse More Used Cars</span>
+
+    </div>
+    <div class="grid w-[80%] mx-auto mb-6 gap-[20px] grid-cols-3 sm:grid-cols-4 md:grid-cols-5">
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Houses for Sale in Lahore</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Houses for Sale in Rawalpindi</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Houses for Sale in Faisalabad</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Houses for Sale in Multan</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Houses for Sale in Gujranwala</div>
+
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Houses for Sale in Sialkot</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Plots for Sale in Lahore</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Plots for Sale in Rawalpindi</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Plots for Sale in Faisalabad</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Plots for Sale in Multan</div>
+
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Plots for Sale in Gujranwala</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Plots for Sale in Sialkot</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Flats for Sale in Lahore</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Flats for Sale in Rawalpindi</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Flats for Sale in Faisalabad</div>
+
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Flats for Sale in Multan</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Flats for Sale in Gujranwala</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Flats for Sale in Sialkot</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Houses for Rent in Lahore</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Houses for Rent in Rawalpindi</div>
+
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Houses for Rent in Faisalabad</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Houses for Rent in Multan</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Houses for Rent in Gujranwala</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Houses for Rent in Sialkot</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Flats for Rent in Lahore</div>
+
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Flats for Rent in Rawalpindi</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Flats for Rent in Faisalabad</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Flats for Rent in Multan</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Flats for Rent in Gujranwala</div>
+        <div class="text-[#406367] cursor-pointer hover:text-[#3A77FF]">Flats for Rent in Sialkot</div>
+    </div>
+
+
+    <!-- Properties for Sale in Pakistan -->
+
+    <div class="flex flex-col justify-between w-[80%] mx-auto mt-5 mb-3">
+        <span class="font-bold text-2xl
+"> Properties for Sale in Pakistan </span>
+        <p class="text-[#406367] mb-5 mt-2">
+            The government of Pakistan has introduced several reforms to facilitate the country’s property sphere, and
+            has allowed it to evolve in such a way that the prevailing housing shortage is timely met. The real estate
+            industry of Pakistan is on a fast-paced development path, further enabling the construction sector to
+            flourish as well. The properties available for sale in Pakistan are very well-equipped. You can easily find
+            affordable housing units, for people hailing from all walks of life.
+
+
+        </p>
+        <p class="text-[#406367]">
+            Buy all sorts of properties for sale in Pakistan on OLX. Find the best properties for sale in all the major
+            cities of Pakistan including Lahore, Karachi, Islamabad, Gwadar, Rawalpindi, and Multan. Our sale and rent
+            services enable our prized consumers to easily buy houses for sale in Pakistan, and plots available for sale
+            as well. Search through the thousands of listings available here and find the perfect pick for you — with
+            OLX Properties! Furthermore, you can find several budget friendly and low priced properties for sale in
+            popular cities including Lahore, Islamabad, and Karachi.
+        </p>
+
+    </div>
+
+    <!-- Properties for Rent in Pakistan -->
+    <div class="flex flex-col justify-between w-[80%] mx-auto mt-5 mb-3">
+        <span class="font-bold text-2xl">Properties for Rent in Pakistan</span>
+        <p class="text-[#406367] mb-5 mt-2">
+            For those seeking to rent properties in Pakistan, OLX Property offers ample listings of amazing
+            opportunities for you — be it for investment purposes or renting one out for yourself. If you want a
+            house for rent located in any part of Pakistan, you can take advantage of these lucrative listings
+            uploaded here. Find all types of properties for rent in Pakistan including residential plots, commercial
+            plots, apartments, and houses for sale and/or rent. OLX aims to enhance your journey to buy and rent
+            properties by helping you decipher and categorize the units you desire.
+        </p>
+
+        <span class="font-bold text-2xl mt-6">Sell your properties now!</span>
+        <p class="text-[#406367] mt-2">
+            At OLX, your comfort and convenience is our top-most priority. Our platform enables you to easily sell
+            properties (like houses for sale and plots for sale) online by effortlessly connecting you to thousands
+            of potential buyers. Start now by uploading good quality pictures, setting the right price, placing your
+            listing in the correct location, and providing all the necessary details — then just sit back and watch
+            numerous potential buyers line up to grab your property for sale.
+        </p>
+    </div>
+
+
+    <!--  -->
+    <!--  -->
+    <!--  img 2 ad  -->
+    <div class="flex w-full bg-[#F7F8F9] pt-6 justify-between items-center">
+        <div class="w-[50%]  flex justify-center ">
+            <img src="https://www.olx.com.pk/assets/olx-mobile-app.dfa5b83f01c6e269aca19a3faff716a6.webp"
+                class="w-[188px] me-[30px]" alt="">
+
+        </div>
+        <div class=" w-[40%] ">
+            <div class="flex mx-auto justify-center ">
+                <div class="w-[128px] me-[8px] ">
+                    <img src="	https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
+                        class="w-full" alt="">
+                </div>
+                <div class="w-[128px] me-[8px]">
+                    <img src="	https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg"
+                        class="w-full" alt="">
+                </div>
+                <div class="w-[128px] me-[8px]">
+                    <img src="	https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg"
+                        class="w-full" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- footer    -->
+    <footer class="w-full bg-[#F2F4F5] py-[40px]">
+        <div class="w-[83%] flex justify-between flex-wrap mx-auto">
+            <div class=" ">
+                <h1 class="mb-3 font-bold text-[#002F34]">Popular Categories</h1>
+                <ul class="m-0 text-[#002F34] p-0">
+                    <li class="hover:text-[#04515a] cursor-pointer ">Cars</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Flats for rent</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Mobile Phones</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Jobs</li>
+                </ul>
+            </div>
+            <div class="">
+                <h1 class="mb-3 font-bold text-[#002F34]">Trending Searches</h1>
+                <ul class="m-0 text-[#002F34] p-0">
+                    <li class="hover:text-[#04515a] cursor-pointer ">Bikes</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Watches</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Books</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Dogs</li>
+                </ul>
+            </div>
+            <div class="">
+                <h1 class="mb-3 font-bold text-[#002F34]">About Us</h1>
+                <ul class="m-0 text-[#002F34] p-0">
+                    <li class="hover:text-[#04515a] cursor-pointer ">OLX Blog</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Contact Us</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">OLX for</li>
+
+                </ul>
+            </div>
+            <div class="b">
+                <h1 class="mb-3 font-bold text-[#002F34]">OLX</h1>
+                <ul class="m-0 text-[#002F34] p-0">
+                    <li class="hover:text-[#04515a] cursor-pointer ">Help</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Sitemap</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Terms of use</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Privacy</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Policy</li>
+                </ul>
+            </div>
+            <div class=" text-[#002F34]">
+                <h1 class="mb-3 font-bold text-[#002F34]">Follow Us</h1>
+                <div>
+                    <ul class="m-0 flex p-0">
+                        <li class="border-2 rounded-full hover:text-[#04515a] cursor-pointer p-2 px-3 me-3"><i
+                                class="fa-brands fa-x-twitter"></i></li>
+                        <li class="border-2 rounded-full hover:text-[#04515a] cursor-pointer p-2 px-3 me-3"><i
+                                class="fa-brands fa-facebook"></i></li>
+                        <li class="border-2 rounded-full hover:text-[#04515a] cursor-pointer p-2 px-3 me-3"><i
+                                class="fa-brands fa-youtube"></i></li>
+                        <li class="border-2 rounded-full hover:text-[#04515a] cursor-pointer p-2 px-3"><i
+                                class="fa-brands fa-instagram"></i></li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- last  -->
+    <div class="w-full bg-[#002F34] py-4">
+        <div class="w-[83%] mx-auto flex justify-between">
+            <div></div>
+            <p class="text-white"><span class="font-bold">Classifieds in Pakistan </span>.© 2006–2025 OLX</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</html>

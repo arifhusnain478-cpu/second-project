@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./output.css">
+    <style>
+        * {
+            font-family: Geomanist, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header
+        class="w-full h-[139px] border-2 border-b border-[#F3F5F6]  top-0  fixed z-10 text-[#002F34] overflow-x-auto">
+        <div class="w-full flex h-[63px] bg-[#EBF1FF]">
+            <div class="mx-auto w-[83%]  flex justify-between items-center">
+                <div class="flex">
+                    <div class="w-[60px] py-3 flex items-center  bg-[#FFFFFF] ">
+                        <a href="first.html">
+                            <img src="https://logos-world.net/wp-content/uploads/2022/04/OLX-Logo.jpg"
+                                class="w-[45px] mx-auto " alt="">
+                        </a>
+                    </div>
+                    <div class="flex  mx-4 items-center justify-center">
+                        <a href="motor.html">
+                            <div class="  w-[51px]">
+                                <img src="https://www.olx.com.pk/assets/iconMotors.6bf280165e43e55b173d0a53551e2bfb.png"
+                                    class="w-full" alt="">
+
+                            </div>
+
+                            <p class="ms-2 cursor-pointer hover:text-[#3A77FF] font-bold"><a
+                                    href="motor.html">Motors</a>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="flex  mx-3 items-center justify-center">
+                        <div class="  w-[34px]">
+                            <img src="https://www.olx.com.pk/assets/iconProperty.d09c6d2e3621f900c17c9e8330a1a37b.png"
+                                class="w-full" alt="">
+
+                        </div>
+                        <p class="ms-2 cursor-pointer hover:text-[#3A77FF] font-bold"><a href="propety.html">Property
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-5">
+                    <p class="underline font-bold underline-offset-8 hover:no-underline cursor-pointer"> Login</p>
+                    <div class="relative w-[104px]">
+                        <img src="LOGIN PAGE IMG.png" class="w-full" alt="">
+
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fa-solid fa-plus mr-1"></i>
+                            <span class="font-semibold">SELL</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="w-full bg-[#FFFFFF]">
+            <div class="w-[83%] mx-auto grid items-center grid-cols-[362px_auto] gap-4">
+
+                <div class="flex justify-between   border-[#4f4b4a3c] my-3 rounded-lg  p-3 border-1 ">
+                    <div>
+                        <i class="fa-solid fa-location-dot me-1 text-[#4072FF]"></i>
+                        <span>Pakistan</span>
+                    </div>
+                    <i class="fa-solid fa-greater-than rotate-90"></i>
+                </div>
+
+                <div class="flex border border-[#002F34] rounded-md overflow-hidden w-full mx-auto h-[42px]">
+                    <input type="search" placeholder="Find Cars, Mobile Phones and more..."
+                        class="flex-grow px-4 outline-none text-[#002F34] placeholder-gray-500 text-[15px]">
+
+                    <button
+                        class="flex items-center justify-center gap-2 bg-[#002F34] text-white px-4 font-semibold text-[14px] h-full">
+                        <i class="fas fa-search text-[14px]"></i>
+                        <span>Search</span>
+                    </button>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </header>
+    <!--  -->
+
+    <section class="w-full mt-[160px]">
+        <div class="w-full py-[10px] px-[16px]">
+            <div class="mx-auto w-[83%]">
+                <div class="flex w-[80%] justify-between">
+                    <div class="flex items-center">
+                        <a href="#">
+                            <h2 class="font-semibold">All categories</h2>
+                        </a>
+                        <div>
+                            <img src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ded95e88f046d456861b914bb0993f24.svg"
+                                class="ms-2" alt="">
+                        </div>
+                    </div>
+                    <div class="hidden sm:block">
+                        <a href="#">
+                            <h2 class="hover:text-[#3A77FF] cursor-pointer">Mobile Phones</h2>
+                        </a>
+                    </div>
+                    <div class="hidden sm:block">
+                        <a href="#">
+                            <h2 class="hover:text-[#3A77FF] cursor-pointer">Cars</h2>
+                        </a>
+                    </div>
+                    <div class="hidden sm:block">
+                        <a href="#">
+                            <h2 class="hover:text-[#3A77FF] cursor-pointer">Motorcycles</h2>
+                        </a>
+                    </div>
+                    <div class="hidden sm:block">
+                        <a href="#">
+                            <h2 class="hover:text-[#3A77FF] cursor-pointer">Houses</h2>
+                        </a>
+                    </div>
+                    <div class="hidden sm:block">
+                        <a href="#">
+                            <h2 class="hover:text-[#3A77FF] cursor-pointer">Video-Audios</h2>
+                        </a>
+                    </div>
+                    <div class="hidden sm:block">
+                        <a href="#">
+                            <h2 class="hover:text-[#3A77FF] cursor-pointer">Tablets</h2>
+                        </a>
+                    </div>
+                    <div class="hidden sm:block">
+                        <a href="#">
+                            <h2 class="hover:text-[#3A77FF] cursor-pointer">Land & Plots</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="mx-auto w-[97.5%] ">
+        <img src="	https://images.olx.com.pk/thumbnails/573005903-800x600.webp" class=" rounded-sm" alt="">
+
+    </div>
+
+
+
+
+    <!-- Menu -->
+    <!-- <div class="w-full py-[10px] px-[16px]">
+        <div class="mx-auto w-[83%]">
+            <div class="flex w-[80%] justify-between">
+                <div class="flex items-center">
+                    <a href="#">
+                        <h2 class="font-semibold">All categories</h2>
+                    </a>
+                    <div>
+                        <img src="https://www.olx.com.pk/assets/iconArrowDown_noinline.ded95e88f046d456861b914bb0993f24.svg"
+                            class="ms-2" alt="">
+                    </div>
+                </div>
+                <div class="hidden sm:block">
+                    <a href="#">
+                        <h2 class="hover:text-[#3A77FF] cursor-pointer">Mobile Phones</h2>
+                    </a>
+                </div>
+                <div class="hidden sm:block">
+                    <a href="#">
+                        <h2 class="hover:text-[#3A77FF] cursor-pointer">Cars</h2>
+                    </a>
+                </div>
+                <div class="hidden sm:block">
+                    <a href="#">
+                        <h2 class="hover:text-[#3A77FF] cursor-pointer">Motorcycles</h2>
+                    </a>
+                </div>
+                <div class="hidden sm:block">
+                    <a href="#">
+                        <h2 class="hover:text-[#3A77FF] cursor-pointer">Houses</h2>
+                    </a>
+                </div>
+                <div class="hidden sm:block">
+                    <a href="#">
+                        <h2 class="hover:text-[#3A77FF] cursor-pointer">Video-Audios</h2>
+                    </a>
+                </div>
+                <div class="hidden sm:block">
+                    <a href="#">
+                        <h2 class="hover:text-[#3A77FF] cursor-pointer">Tablets</h2>
+                    </a>
+                </div>
+                <div class="hidden sm:block">
+                    <a href="#">
+                        <h2 class="hover:text-[#3A77FF] cursor-pointer">Land & Plots</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- ad img -->
+    <div class="w-[77%] my-7 mx-auto">
+        <img src="	https://tpc.googlesyndication.com/simgad/18262986440404471422" alt="">
+
+    </div>
+    <!-- product bar -->
+    <div class=" w-[97%]  lg:w-[80%] mx-auto grid md:grid-cols-[auto_420px] gap-[2.4rem]">
+        <!-- col 1 -->
+        <div class="grid grid-cols-1  text-[#002F34] gap-[2.4rem]
+">
+
+            <div class="">
+                <img src="https://media.ed.edmunds-media.com/bugatti/chiron/2024/fe/2024_bugatti_chiron_f34_fe_110424_1600.jpg"
+                    alt="" class="w-full rounded-xl">
+
+            </div>
+            <div class="">
+                <div class="flex justify-between items-center mb-[4px] ">
+                    <h1 class="text-[2.3rem] font-semibold">Rs 43.95 Lacs</h1>
+                    <div class="text-[18px]">
+                        <i class="fa-regular fa-heart me-2"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+
+                    </div>
+
+                </div>
+                <h1 class="text-[16.9px] font-semibold mb-[12px]">Toyota Corolla Altis 1.8 CVT 2016 Model First Hand
+                </h1>
+                <div class="flex justify-between ">
+                    <div class=" flex items-center">
+                        <i class="fa-solid text-[#2A65EA] fa-location-dot me-1.5"></i>
+                        <p class="text-sm">Gulshan-e-Iqbal, Karachi</p>
+                    </div>
+                    <span class="text-sm">2 weeks ago</span>
+
+                </div>
+            </div>
+            <!--  -->
+            <div class="grid bg-[#F4F6F6] rounded-lg grid-cols-2 lg:grid-cols-3">
+                <div class=" p-[15px] flex gap-3 items-center">
+                    <i class="fa-regular fa-calendar text-[20px]"></i>
+                    <div class="flex flex-col ">
+                        <span>Year</span>
+                        <span class="font-semibold">2021</span>
+                    </div>
+                </div>
+                <div class=" p-[15px] flex gap-3 items-center">
+                    <i class="fa-solid fa-road  text-[20px]"></i>
+                    <div class="flex flex-col ">
+                        <span>KM's driven</span>
+                        <span class="font-semibold">53,000</span>
+                    </div>
+                </div>
+                <div class=" p-[15px] flex gap-3 items-center">
+                    <i class="fa-solid fa-gas-pump  text-[20px]"></i>
+                    <div class="flex flex-col ">
+                        <span>Fuel</span>
+                        <span class="font-semibold">Petrol
+                        </span>
+                    </div>
+                </div>
+                <div class=" p-[15px] flex gap-3 items-center">
+                    <i class="fa-solid fa-tent-arrow-left-right text-[20px]"></i>
+                    <div class="flex flex-col ">
+                        <span>Transmission</span>
+                        <span class="font-semibold">Automatic</span>
+                    </div>
+                </div>
+
+
+            </div>
+            <!--  details -->
+            <div class="font-bold text-2xl">
+                <h1>Details</h1>
+            </div>
+            <!-- table -->
+            <div class="grid md:grid-cols-2 gap-x-3 gap-y-1.5">
+                <div class="grid text-sm  grid-cols-[41%_57%]">
+                    <span class="px-[12px] bg-[#F2F4F5] py-[8px] block">Make</span>
+                    <span class="font-semibold px-[12px] py-[8px] bg-[#FAFBFB] block">KIA</span>
+
+                </div>
+                <div class="grid text-sm grid-cols-[41%_57%]">
+                    <span class="px-[12px] bg-[#F2F4F5] py-[8px] block">Model</span>
+                    <span class="font-semibold px-[12px] py-[8px] bg-[#FAFBFB] block">Sportage</span>
+
+                </div>
+                <div class="grid text-sm grid-cols-[41%_57%]">
+                    <span class="px-[12px] bg-[#F2F4F5] py-[8px] block">Condition</span>
+                    <span class="font-semibold px-[12px] py-[8px] bg-[#FAFBFB] block">
+                        Used</span>
+
+                </div>
+                <div class="grid text-sm grid-cols-[41%_57%]">
+                    <span class="px-[12px] bg-[#F2F4F5] py-[8px] block">Body Type
+                    </span>
+                    <span class="font-semibold px-[12px] py-[8px] bg-[#FAFBFB] block">SUV</span>
+
+                </div>
+                <div class="grid text-sm grid-cols-[41%_57%]">
+                    <span class="px-[12px] bg-[#F2F4F5] py-[8px] block">Color</span>
+                    <span class="font-semibold px-[12px] py-[8px] bg-[#FAFBFB] block">White</span>
+
+                </div>
+                <div class="grid text-sm grid-cols-[41%_57%]">
+                    <span class="px-[12px] bg-[#F2F4F5] py-[8px] block">Number of seats
+                    </span>
+                    <span class="font-semibold px-[12px] py-[8px] bg-[#FAFBFB] block">5</span>
+
+                </div>
+                <div class="grid text-sm grid-cols-[41%_57%]">
+                    <span class="px-[12px] bg-[#F2F4F5] py-[8px] block">Number of Owners</span>
+                    <span class="font-semibold px-[12px] py-[8px] bg-[#FAFBFB] block">3</span>
+
+                </div>
+
+
+            </div>
+            <!-- Features -->
+            <div class="grid gap-2.5">
+                <div class="font-bold text-2xl">
+                    <h1>Features</h1>
+                </div>
+                <!--  -->
+                <div>
+                    <div class=" flex items-center mb-1.5">
+                        <h1 class="font-semiboldbold text-[#5F6367] text-2xl">Comfort</h1>
+                        <div class="h-[1px] w-[98%] ms-2 bg-[#c6cfd3]">
+
+                        </div>
+                    </div>
+                    <div class="flex gap-2 flex-wrap">
+                        <span class="px-[12px] text-sm bg-[#F2F4F5] py-[8px] block">Keyless Entry
+                        </span>
+                        <span class="px-[12px] text-sm bg-[#F2F4F5] py-[8px] block">Power Mirrors</span>
+                        <span class="px-[12px] text-sm bg-[#F2F4F5] py-[8px] block">Power Steering</span>
+                        <span class="px-[12px] text-sm bg-[#F2F4F5] py-[8px] block">
+                            Power Windows</span>
+                        <span class="px-[12px] text-sm bg-[#F2F4F5] py-[8px] block">Steering Switches</span>
+                        <span class="px-[12px] text-sm bg-[#F2F4F5] py-[8px] block">Keyless Start</span>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- small screen  col 2 part  -->
+            <div class="flex mx-auto w-[88%] md:hidden flex-col gap-[1.6rem]">
+
+                <div class="border-2 self-start text-[#002F34] border-[#F3F5F6] w-full p-[12px]">
+                    <!-- profile -->
+                    <div class=" flex justify-between items-center">
+                        <div class="flex justify-between gap-2">
+                            <div><img
+                                    src="	https://www.olx.com.pk/assets/iconProfilePicture_noinline.6327fd8895807f09fafb0ad1e3d99b83.svg"
+                                    class="rounded-full w-[88%]"></div>
+                            <div class="flex flex-col gap-1">
+                                <span class="text-sm text-[#596367]">
+                                    Posted by
+                                </span>
+                                <span class="font-semibold">
+                                    SA Mughal
+                                </span>
+
+                            </div>
+
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-greater-than"></i>
+                        </div>
+
+
+                    </div>
+                    <div class="h-[1px] w-[98%] my-[10px] ms-2 bg-[#c6cfd3]"> </div>
+                    <div class="flex gap-[100px]">
+                        <div class="flex  ">
+
+                            <div class="flex gap-2.5 items-center">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <div class="flex flex-col ">
+                                    <span class="text-sm text-[#596367]">
+                                        Member Since
+                                    </span>
+                                    <span class="font-semibold">
+                                        2019
+                                    </span>
+
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="flex  ">
+
+                            <div class="flex gap-2.5 items-center">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <div class="flex flex-col ">
+                                    <span class="text-sm text-[#596367]">
+                                        Member Since
+                                    </span>
+                                    <span class="font-semibold">
+                                        2019
+                                    </span>
+
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div
+                    class="bg-[#002F34] font-semibold rounded-sm p-[10px] self-start text-[#FFFFFF] w-full flex justify-center items-center gap-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <h1 class="">Show phone number</h1>
+                </div>
+                <div
+                    class="w-full rounded-sm border-2 font-semibold hover:border-3  flex justify-center items-center gap-2 p-[10px] text-[#002F34] border-[#002F34] ">
+                    <i class="fa-regular fa-message"></i>
+                    <h1 class="">Chat</h1>
+
+                </div>
+                <div class=" text-[#002F34] flex items-center justify-between ">
+                    <span>Ad ID: 1105971011</span>
+                    <div class=" flex items-center gap-2">
+                        <i class="fa-regular fa-flag"></i>
+                        <span class="font-semibold">Report this ad</span>
+                    </div>
+                </div>
+            </div>
+            <!--Description  -->
+            <div>
+                <div class="font-bold text-2xl">
+                    <h1>Description</h1>
+                </div>
+                <span class=" text-base  py-[8px] block">Total genuine condition
+                </span>
+            </div>
+            <!--Similar cars  -->
+            <div>
+                <div class="font-bold text-2xl scrollbar-hide">
+                    <h1>Similar cars</h1>
+                </div>
+                <!-- cards -->
+                <div class="max-w-[100%] mx-auto scrollbar-hide">
+                    <div class="grid grid-flow-col auto-cols-[179px] overflow-x-auto  scrollbar-hide my-5 gap-3">
+
+                        <div class="shadow-sm cursor-pointer pb-2 rounded-md">
+                            <a href="product.html">
+                                <div class=" aspect-[4/3]">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNTGJpjqAQk9J5Nb2ZxShobMhxqKm4nipqoQ&s"
+                                        alt="" class="w-full h-full object-cover ">
+                                </div>
+                                <div class="px-3 flex flex-col justify-between">
+                                    <div class="flex justify-between items-center">
+                                        <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                                        <i class="fa-regular fa-heart font-bold text-lg"></i>
+                                    </div>
+                                    <p>Suzuki Mehran VXR 2014 </p>
+                                    <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                                    <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                                    <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="shadow-sm cursor-pointer pb-2 rounded-md">
+                            <a href="product.html">
+                                <div class=" aspect-[4/3]">
+                                    <img src="https://www.carjunction.com/car_images2/88175_100116/d.jpg" alt=""
+                                        class="w-full h-full object-cover ">
+                                </div>
+                                <div class="px-3 flex flex-col justify-between">
+                                    <div class="flex justify-between items-center">
+                                        <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                                        <i class="fa-regular fa-heart font-bold text-lg"></i>
+                                    </div>
+                                    <p>Suzuki Mehran VXR 2014 </p>
+                                    <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                                    <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                                    <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="shadow-sm cursor-pointer pb-2 rounded-md">
+                            <a href="product.html">
+                                <div class=" aspect-[4/3]">
+                                    <img src="https://toyotacreek.com/wp-content/uploads/2025/03/The-Most-Popular-Toyota-Hatchback-Cars-in-Pakistan-Featured.jpg"
+                                        alt="" class="w-full h-full object-cover ">
+                                </div>
+                                <div class="px-3 flex flex-col justify-between">
+                                    <div class="flex justify-between items-center">
+                                        <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                                        <i class="fa-regular fa-heart font-bold text-lg"></i>
+                                    </div>
+                                    <p>Suzuki Mehran VXR 2014 </p>
+                                    <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                                    <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                                    <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="shadow-sm cursor-pointer pb-2 rounded-md">
+                            <a href="product.html">
+                                <div class=" aspect-[4/3]">
+                                    <img src="https://propakistani.pk/wp-content/uploads/2022/02/Honda-Civic-2022-Pakistan-SMK.jpg"
+                                        alt="" class="w-full h-full object-cover ">
+                                </div>
+                                <div class="px-3 flex flex-col justify-between">
+                                    <div class="flex justify-between items-center">
+                                        <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                                        <i class="fa-regular fa-heart font-bold text-lg"></i>
+                                    </div>
+                                    <p>Suzuki Mehran VXR 2014 </p>
+                                    <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                                    <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                                    <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="shadow-sm cursor-pointer pb-2 rounded-md">
+                            <a href="product.html">
+                                <div class=" aspect-[4/3]">
+                                    <img src="https://propakistani.pk/wp-content/uploads/2022/02/Honda-Civic-2022-Pakistan-SMK.jpg"
+                                        alt="" class="w-full h-full object-cover ">
+                                </div>
+                                <div class="px-3 flex flex-col justify-between">
+                                    <div class="flex justify-between items-center">
+                                        <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                                        <i class="fa-regular fa-heart font-bold text-lg"></i>
+                                    </div>
+                                    <p>Suzuki Mehran VXR 2014 </p>
+                                    <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                                    <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                                    <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                                </div>
+                            </a>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- new cars -->
+            <div>
+                <div class="font-bold text-2xl">
+                    <h1>New cars for similar price</h1>
+                </div>
+                <!-- cards -->
+                <div class="max-w-[100%] mx-auto">
+                    <div class="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 my-5 gap-2">
+
+                        <div class="shadow-sm cursor-pointer pb-2 rounded-md">
+                            <div class=" aspect-[4/3]">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNTGJpjqAQk9J5Nb2ZxShobMhxqKm4nipqoQ&s"
+                                    alt="" class="w-full h-full object-cover ">
+                            </div>
+                            <div class="px-3 flex flex-col justify-between">
+                                <div class="flex justify-between items-center">
+                                    <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                                    <i class="fa-regular fa-heart font-bold text-lg"></i>
+                                </div>
+                                <p>Suzuki Mehran VXR 2014 </p>
+                                <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                                <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                                <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                            </div>
+
+                        </div>
+                        <div class="shadow-sm cursor-pointer pb-2 rounded-md">
+                            <div class=" aspect-[4/3]">
+                                <img src="https://www.carjunction.com/car_images2/88175_100116/d.jpg" alt=""
+                                    class="w-full h-full object-cover ">
+                            </div>
+                            <div class="px-3 flex flex-col justify-between">
+                                <div class="flex justify-between items-center">
+                                    <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                                    <i class="fa-regular fa-heart font-bold text-lg"></i>
+                                </div>
+                                <p>Suzuki Mehran VXR 2014 </p>
+                                <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                                <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                                <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                            </div>
+
+                        </div>
+                        <div class="shadow-sm cursor-pointer pb-2 rounded-md">
+                            <div class=" aspect-[4/3]">
+                                <img src="https://toyotacreek.com/wp-content/uploads/2025/03/The-Most-Popular-Toyota-Hatchback-Cars-in-Pakistan-Featured.jpg"
+                                    alt="" class="w-full h-full object-cover ">
+                            </div>
+                            <div class="px-3 flex flex-col justify-between">
+                                <div class="flex justify-between items-center">
+                                    <SPAN class="font-bold my-3 ">Rs 8 Lac</SPAN>
+                                    <i class="fa-regular fa-heart font-bold text-lg"></i>
+                                </div>
+                                <p>Suzuki Mehran VXR 2014 </p>
+                                <p class="font-bold text-[#3e6d8d]">86,789 km . 2014</p>
+
+                                <p class="text-sm font-extralight text-[#274d67]">Johar Town</p> <br>
+                                <p class="text-sm font-thin text-[#467594]">1 week ago</p>
+                            </div>
+
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- Your safety matters to us! -->
+            <div>
+                <div class="font-bold mb-2 text-2xl">
+                    <h1>Your safety matters to us!</h1>
+                </div>
+                <ul>
+                    <li class=" text-base list-disc ms-5  py-[5px]">Only meet in public / crowded places such as metro
+                        stations and malls.</li>
+                    <li class=" text-base list-disc ms-5  py-[5px]">Never go alone to meet a buyer / seller, always take
+                        someone with you.
+                    <li class=" text-base list-disc ms-5  py-[5px]">Check and inspect the product properly before
+                        purchasing it.</li>
+                    <li class=" text-base list-disc ms-5  py-[5px]">Never pay / transfer any money in advance before
+                        inspecting the product.</li>
+
+                </ul>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+        <!-- col 2 -->
+        <div class=" grid-cols-1 hidden md:grid  gap-[2.4rem]">
+            <div class="flex flex-col gap-[2.4rem]">
+                <div class="flex flex-col gap-[1.6rem]">
+
+                    <div class="border-2 self-start text-[#002F34] border-[#F3F5F6] w-full p-[12px]">
+                        <!-- profile -->
+                        <div class=" flex justify-between items-center">
+                            <div class="flex justify-between gap-2">
+                                <div><img
+                                        src="	https://www.olx.com.pk/assets/iconProfilePicture_noinline.6327fd8895807f09fafb0ad1e3d99b83.svg"
+                                        class="rounded-full w-[88%]"></div>
+                                <div class="flex flex-col gap-1">
+                                    <span class="text-sm text-[#596367]">
+                                        Posted by
+                                    </span>
+                                    <span class="font-semibold">
+                                        SA Mughal
+                                    </span>
+
+                                </div>
+
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-greater-than"></i>
+                            </div>
+
+
+                        </div>
+                        <div class="h-[1px] w-[98%] my-[10px] ms-2 bg-[#c6cfd3]"> </div>
+                        <div class="flex gap-[100px]">
+                            <div class="flex  ">
+
+                                <div class="flex gap-2.5 items-center">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <div class="flex flex-col ">
+                                        <span class="text-sm text-[#596367]">
+                                            Member Since
+                                        </span>
+                                        <span class="font-semibold">
+                                            2019
+                                        </span>
+
+
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                            <div class="flex  ">
+
+                                <div class="flex gap-2.5 items-center">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <div class="flex flex-col ">
+                                        <span class="text-sm text-[#596367]">
+                                            Member Since
+                                        </span>
+                                        <span class="font-semibold">
+                                            2019
+                                        </span>
+
+
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div
+                        class="bg-[#002F34] font-semibold rounded-sm p-[10px] self-start text-[#FFFFFF] w-full flex justify-center items-center gap-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <h1 class="">Show phone number</h1>
+                    </div>
+                    <div
+                        class="w-full rounded-sm border-2 font-semibold hover:outline-2 hover:outline-[#002F34]  flex justify-center items-center gap-2 p-[10px] text-[#002F34] ">
+                        <i class="fa-regular fa-message"></i>
+                        <h1 class="">Chat</h1>
+
+                    </div>
+                    <div class=" text-[#002F34] flex items-center justify-between ">
+                        <span>Ad ID: 1105971011</span>
+                        <div class=" flex items-center gap-2">
+                            <i class="fa-regular fa-flag"></i>
+                            <span class="font-semibold">Report this ad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid justify-center">
+                    <img src="https://tpc.googlesyndication.com/simgad/124931291631684308 " alt="">
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!--  -->
+    <!--  -->
+    <!--  img 2 ad  -->
+    <div class="flex w-full bg-[#F7F8F9] pt-6 justify-between items-center">
+        <div class="w-[50%]  flex justify-center ">
+            <img src="https://www.olx.com.pk/assets/olx-mobile-app.dfa5b83f01c6e269aca19a3faff716a6.webp"
+                class="w-[188px] me-[30px]" alt="">
+
+        </div>
+        <div class=" w-[40%] ">
+            <div class="flex mx-auto justify-center ">
+                <div class="w-[128px] me-[8px] ">
+                    <img src="	https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
+                        class="w-full" alt="">
+                </div>
+                <div class="w-[128px] me-[8px]">
+                    <img src="	https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg"
+                        class="w-full" alt="">
+                </div>
+                <div class="w-[128px] me-[8px]">
+                    <img src="	https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg"
+                        class="w-full" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- footer    -->
+    <footer class="w-full bg-[#F2F4F5] py-[40px]">
+        <div class="w-[83%] flex justify-between flex-wrap mx-auto">
+            <div class=" ">
+                <h1 class="mb-3 font-bold text-[#002F34]">Popular Categories</h1>
+                <ul class="m-0 text-[#002F34] p-0">
+                    <li class="hover:text-[#04515a] cursor-pointer ">Cars</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Flats for rent</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Mobile Phones</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Jobs</li>
+                </ul>
+            </div>
+            <div class="">
+                <h1 class="mb-3 font-bold text-[#002F34]">Trending Searches</h1>
+                <ul class="m-0 text-[#002F34] p-0">
+                    <li class="hover:text-[#04515a] cursor-pointer ">Bikes</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Watches</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Books</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Dogs</li>
+                </ul>
+            </div>
+            <div class="">
+                <h1 class="mb-3 font-bold text-[#002F34]">About Us</h1>
+                <ul class="m-0 text-[#002F34] p-0">
+                    <li class="hover:text-[#04515a] cursor-pointer ">OLX Blog</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Contact Us</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">OLX for</li>
+
+                </ul>
+            </div>
+            <div class="b">
+                <h1 class="mb-3 font-bold text-[#002F34]">OLX</h1>
+                <ul class="m-0 text-[#002F34] p-0">
+                    <li class="hover:text-[#04515a] cursor-pointer ">Help</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Sitemap</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Terms of use</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Privacy</li>
+                    <li class="hover:text-[#04515a] cursor-pointer ">Policy</li>
+                </ul>
+            </div>
+            <div class=" text-[#002F34]">
+                <h1 class="mb-3 font-bold text-[#002F34]">Follow Us</h1>
+                <div>
+                    <ul class="m-0 flex p-0">
+                        <li class="border-2 rounded-full hover:text-[#04515a] cursor-pointer p-2 px-3 me-3"><i
+                                class="fa-brands fa-x-twitter"></i></li>
+                        <li class="border-2 rounded-full hover:text-[#04515a] cursor-pointer p-2 px-3 me-3"><i
+                                class="fa-brands fa-facebook"></i></li>
+                        <li class="border-2 rounded-full hover:text-[#04515a] cursor-pointer p-2 px-3 me-3"><i
+                                class="fa-brands fa-youtube"></i></li>
+                        <li class="border-2 rounded-full hover:text-[#04515a] cursor-pointer p-2 px-3"><i
+                                class="fa-brands fa-instagram"></i></li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- last  -->
+    <div class="w-full bg-[#002F34] py-4">
+        <div class="w-[83%] mx-auto flex justify-between">
+            <div></div>
+            <p class="text-white"><span class="font-bold">Classifieds in Pakistan </span>.© 2006–2025 OLX</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</html>
